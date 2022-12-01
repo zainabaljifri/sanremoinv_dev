@@ -30,23 +30,27 @@
   <link rel="manifest" href="manifest.json">
 </head>
 <body>
- 
+
+   <!-- The core Firebase JS SDK is always required and must be listed first -->
+   <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-app.js"></script>
 
   <!-- This script installs service_worker.js to provide PWA functionality to
        application. For more information, see:
        https://developers.google.com/web/fundamentals/primers/service-workers --> 
-       <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-messaging.js"></script>
+       <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-auth.js"></script>
+       <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-firestore.js"></script>
        <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-storage.js"></script>
+       <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-analytics.js"></script>
+       <!-- <script src="https://www.gstatic.com/firebasejs/9.8.1/firebase-messaging.js"></script> -->
        <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-database.js"></script>
-       <script src="https://www.gstatic.com/firebasejs/9.8.1/firebase-firestore-compat.js"></script>
-       <script src="https://www.gstatic.com/firebasejs/9.8.1/firebase-auth-compat.js"></script>
-       <script src="app.js"></script>
+       <!-- <script src="app.js"></script> -->
 
      
        <script type="module">
         // Import the functions you need from the SDKs you need
         import { initializeApp } from "https://www.gstatic.com/firebasejs/9.8.1/firebase-app.js";
         import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.8.1/firebase-analytics.js";
+        // import {firebaseApp} from "https://www.gstatic.com/firebasejs/9.8.1/firebase-database.js"
         // TODO: Add SDKs for Firebase products that you want to use
         // https://firebase.google.com/docs/web/setup#available-libraries
       
@@ -73,15 +77,18 @@
    };
       
         // Initialize Firebase
-        const app = initializeApp(firebaseConfig);
-        const analytics = getAnalytics(app);
-        const db = firebaseApp.firestore(app);
-      const auth = firebaseApp.auth(app);
+      //   const app = initializeApp(firebaseConfig);
+      //   const analytics = getAnalytics(app);
+      //   const db = firebaseApp.firestore(app);
+      // const auth = firebaseApp.auth(app);
+      // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    firebase.analytics();
       </script>
    
    
   <script>
-    var serviceWorkerVersion = '1779435235';
+    var serviceWorkerVersion = '2619701973';
     var scriptLoaded = false;
     function loadMainDartJs() {
       if (scriptLoaded) {
