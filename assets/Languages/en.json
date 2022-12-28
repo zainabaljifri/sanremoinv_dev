@@ -82,5 +82,6 @@
   "inv_confirmation": "Invoice Need's Confirmation",
   "waiting_confirmation_tickets": "Review Tickets",
   "expected_date": "Expected Delivery Date",
-  "tracking_number": "Tracking Number"
+  "tracking_number": "Tracking Number",
+  "with_replacement":"Need Replacement"
 }
