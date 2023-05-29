@@ -14,7 +14,7 @@
   "queue_tickets": "Queue Tickets",
   "assigned_tickets": "Assigned Tickets",
   "pending_tickets": "Pending Tickets",
-  "brand_selection": "Brand Selection",
+  "machine_category": "Machine Category",
   "password": "Password",
   "phone_number": "Phone Number",
   "new_sanremo_ticket": "New Sanremo Ticket",
@@ -83,5 +83,6 @@
   "waiting_confirmation_tickets": "Review Tickets",
   "expected_date": "Expected Delivery Date",
   "tracking_number": "Tracking Number",
-  "with_replacement": "Need Replacement"
+  "with_replacement": "Need Replacement",
+  "machine_model_err": "YOU HAVE TO SELECT MACHINE MODEL !!!!"
 }
