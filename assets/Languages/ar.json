@@ -84,5 +84,6 @@
   "expected_date": "Expected Delivery Date",
   "tracking_number": "Tracking Number",
   "with_replacement": "Need Replacement",
-  "machine_model_err":"YOU HAVE TO SELECT MACHINE MODEL !!!!"
+  "machine_model_err":"YOU HAVE TO SELECT MACHINE MODEL !!!!",
+  "needs_rework":"Needs Rework"
 }
