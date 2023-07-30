@@ -56777,7 +56777,7 @@ $0(){var s=0,r=A.y(t.P),q=this,p,o,n,m,l
 var $async$$0=A.u(function(a,b){if(a===1)return A.v(b,r)
 while(true)switch(s){case 0:l=q.a
 l.R=l.IF(l.x2)
-if(l.d.gaf().jm())if(l.R!=null||l.r.fx!=="Waiting Preparation"){l.p(new A.aK8(l))
+if(l.d.gaf().jm()&&l.R!=null||l.r.fx!=="Waiting Preparation"){l.p(new A.aK8(l))
 p=q.b
 o=t.a
 if(l.r.fx==="Waiting Preparation"){o=A.T(p,!1,o)
