@@ -59825,24 +59825,28 @@ s=2
 return A.p(A.Q(p,!1,t.a).jT("PickupTicketsCS").a3(0,new A.aXN(q),t.P),$async$af)
 case 2:return A.w(null,r)}})
 return A.x($async$af,r)},
-A(a){var s,r,q,p=this,o=null,n={},m=t.w,l=a.F(m).f
-m=a.F(m).f
+A(a){var s,r,q,p,o=this,n=null,m="pick_up_tickets",l={},k=t.w,j=a.F(k).f
+k=a.F(k).f
 s=A.b2(a).bH("DESKTOP")
-n.a=3
-p.n(new A.aXB(n,m.a.a>=1024,l.a.a<897))
-m=!s
-l=m?new A.fb(B.JJ,B.EC,o):o
-if(s){r=A.a([A.cx(o,!0,B.e7,o,new A.aXC(a),B.q,o,o)],t.p)
+l.a=3
+o.n(new A.aXB(l,k.a.a>=1024,j.a.a<897))
+k=!s
+j=k?new A.fb(B.JJ,B.EC,n):n
+if(s){r=A.a([A.cx(n,!0,B.e7,n,new A.aXC(a),B.q,n,n)],t.p)
 q=A.h(a,B.e,t.S)
 q.toString
-q=q.b.h(0,"pick_up_tickets")
+q=q.b.h(0,m)
 q.toString
-q=A.l4(r,A.n(q,o,o,o,B.aK,o,o,o))
-r=q}else r=o
-m=m?A.bcF(B.b3,B.e7,B.aeH,new A.aXD(p)):o
-q=p.asY(a)
-n=n.a
-return A.bK(r,o,new A.da(q,A.yk(1,A.a([new A.cL("Open",p.r.length,"Assets/Images/open_tickets.jpg",new A.aXE(p,a),p.w,o),new A.cL("Waiting Replacement",p.as.length,"Assets/Images/queued_tickets.jpg",new A.aXF(p,a),p.x,o),new A.cL("Waiting Payment",p.at.length,"Assets/Images/ready_tickets.jpg",new A.aXG(p,a),p.y,o),new A.cL("Waiting Preparation",p.ax.length,"Assets/Images/assigned_tickets.jpg",new A.aXH(p,a),-1,o),new A.cL("Awaiting Courier",p.z.length,"Assets/Images/review.jpg",new A.aXI(p,a),-1,o),new A.cL("In Transit",p.Q.length,"Assets/Images/pending_tickets.jpg",new A.aXJ(p,a),-1,o),new A.cL("Pending Receiving",p.ay.length,"Assets/Images/workshop_tickets.png",new A.aXK(p,a),-1,o)],t.p),n,0,0,o,o,!1),o,o),o,l,!1,m,p.d,o)},
+q=A.l4(r,A.n(q,n,n,n,B.aK,n,n,n))
+r=q}else r=n
+k=k?A.bcF(B.b3,B.e7,B.aeH,new A.aXD(o)):n
+q=A.h(a,B.e,t.S)
+q.toString
+q=q.b.h(0,m)
+q.toString
+p=o.asY(a)
+l=l.a
+return A.bK(r,n,new A.da(p,A.yk(1,A.a([new A.cL("Open",o.r.length,"Assets/Images/open_tickets.jpg",new A.aXE(o,a),o.w,n),new A.cL("Waiting Replacement",o.as.length,"Assets/Images/queued_tickets.jpg",new A.aXF(o,a),o.x,n),new A.cL("Waiting Payment",o.at.length,"Assets/Images/ready_tickets.jpg",new A.aXG(o,a),o.y,n),new A.cL("Waiting Preparation",o.ax.length,"Assets/Images/assigned_tickets.jpg",new A.aXH(o,a),-1,n),new A.cL("Awaiting Courier",o.z.length,"Assets/Images/review.jpg",new A.aXI(o,a),-1,n),new A.cL("In Transit",o.Q.length,"Assets/Images/pending_tickets.jpg",new A.aXJ(o,a),-1,n),new A.cL("Pending Receiving",o.ay.length,"Assets/Images/workshop_tickets.png",new A.aXK(o,a),-1,n)],t.p),l,0,0,n,n,!1),q,n),n,j,!1,k,o.d,n)},
 asY(a){var s,r,q=null,p=t.S,o=A.h(a,B.e,p)
 o.toString
 o=o.b.h(0,"home_page")
@@ -60020,48 +60024,44 @@ r.f=A.B(A.Q(s,!1,t.iC).a,!0,t.Ea)
 s=r.a.c
 r.e=s
 J.bL(s,new A.aYr(r))},
-A(a){var s,r,q,p,o,n=this,m=null,l="pick_up_tickets",k={},j=t.w,i=a.F(j).f.a,h=a.F(j).f
-j=a.F(j).f
-k.a=2
-n.n(new A.aYf(k,j.a.a>=1024,h.a.a<897))
-if(A.b2(a).bH("DESKTOP")){j=t.S
-if(n.w){j=A.h(a,B.e,j)
-j.toString
-j=j.b.h(0,"search")
-j.toString
-j=A.aj(!0,!1,m,A.ai(m,m,m,m,m,m,m,m,!0,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,B.bg,j,m,m,m,m,!1,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m),m,!1,m,m,m,m,1,m,!1,new A.aYg(n),m,m,m,m,m,B.bg,B.m,m,m)}else{j=A.h(a,B.e,j)
-j.toString
-j=j.b.h(0,l)
-j.toString
-j=A.n(j,m,m,m,m,m,m,m)}j=A.cc(A.a([A.cx(m,!0,B.b4,m,new A.aYh(n),B.q,m,m)],t.p),m,m,m,j)}else j=m
-h=t.S
-s=A.h(a,B.e,h)
+A(a){var s,r,q,p,o=this,n=null,m={},l=t.w,k=a.F(l).f.a,j=a.F(l).f
+l=a.F(l).f
+m.a=2
+o.n(new A.aYf(m,l.a.a>=1024,j.a.a<897))
+if(A.b2(a).bH("DESKTOP")){l=t.S
+if(o.w){l=A.h(a,B.e,l)
+l.toString
+l=l.b.h(0,"search")
+l.toString
+l=A.aj(!0,!1,n,A.ai(n,n,n,n,n,n,n,n,!0,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,B.bg,l,n,n,n,n,!1,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n),n,!1,n,n,n,n,1,n,!1,new A.aYg(o),n,n,n,n,n,B.bg,B.m,n,n)}else{l=A.h(a,B.e,l)
+l.toString
+l=l.b.h(0,"pick_up_tickets")
+l.toString
+l=A.n(l,n,n,n,n,n,n,n)}l=A.cc(A.a([A.cx(n,!0,B.b4,n,new A.aYh(o),B.q,n,n)],t.p),n,n,n,l)}else l=n
+j=t.S
+s=A.h(a,B.e,j)
 s.toString
-s=s.b.h(0,l)
+s=s.b.h(0,"home_page")
 s.toString
-r=A.h(a,B.e,h)
+r=A.h(a,B.e,j)
 r.toString
-r=r.b.h(0,"home_page")
+r=r.b.h(0,"dashboard")
 r.toString
-q=A.h(a,B.e,h)
+q=A.h(a,B.e,j)
 q.toString
-q=q.b.h(0,"dashboard")
+q=q.b.h(0,"customer_mgmt")
 q.toString
-p=A.h(a,B.e,h)
-p.toString
-p=p.b.h(0,"customer_mgmt")
-p.toString
-h=A.h(a,B.e,h)
-h.toString
-h=h.b.h(0,"settings")
-h.toString
-o=t.p
-h=A.a([new A.aS(r,!1,new A.aYi(a),m),new A.aS("RFA Machines",!1,new A.aYj(a),m),new A.aS(q,!1,new A.aYk(a),m),new A.aS(p,!1,new A.aYl(),m),new A.aS(h,!1,new A.aYm(),m)],o)
-if(n.r)k=B.db
-else{if(A.b2(a).eC("TABLET")){r=A.aV(90)
-r=new A.ag(B.ax,A.V(B.F,A.aj(!0,!1,m,A.ai(m,new A.dM(4,A.aV(90),B.bU),m,B.cT,m,m,m,m,!0,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,!1,m,m,m,m,m,m,m,m,m,m,m,m,B.d4,m,m,m,m),m,!1,m,m,m,m,1,m,!1,new A.aYn(n),m,m,m,m,m,B.bq,B.m,m,m),B.k,m,m,new A.aJ(B.u,m,m,r,m,m,m,B.x),m,i.b*0.1,m,m,m,m,i.a*0.4),m)}else r=A.V(m,m,B.k,m,m,m,m,m,m,m,m,m,m)
-o=A.aT(A.a([r,A.cl(A.hd(m,B.W,new A.fm(k.a,0,0,1,256),new A.aYo(n),J.bC(n.e),m,m,!1),1)],o),B.t,B.w,B.n)
-k=o}return A.bK(j,m,new A.da(h,k,s,m),m,m,!0,m,m,!1)}}
+j=A.h(a,B.e,j)
+j.toString
+j=j.b.h(0,"settings")
+j.toString
+p=t.p
+j=A.a([new A.aS(s,!1,new A.aYi(a),n),new A.aS("RFA Machines",!1,new A.aYj(a),n),new A.aS(r,!1,new A.aYk(a),n),new A.aS(q,!1,new A.aYl(),n),new A.aS(j,!1,new A.aYm(),n)],p)
+if(o.r)m=B.db
+else{if(A.b2(a).eC("TABLET")){s=A.aV(90)
+s=new A.ag(B.ax,A.V(B.F,A.aj(!0,!1,n,A.ai(n,new A.dM(4,A.aV(90),B.bU),n,B.cT,n,n,n,n,!0,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,!1,n,n,n,n,n,n,n,n,n,n,n,n,B.d4,n,n,n,n),n,!1,n,n,n,n,1,n,!1,new A.aYn(o),n,n,n,n,n,B.bq,B.m,n,n),B.k,n,n,new A.aJ(B.u,n,n,s,n,n,n,B.x),n,k.b*0.1,n,n,n,n,k.a*0.4),n)}else s=A.V(n,n,B.k,n,n,n,n,n,n,n,n,n,n)
+p=A.aT(A.a([s,A.cl(A.hd(n,B.W,new A.fm(m.a,0,0,1,256),new A.aYo(o),J.bC(o.e),n,n,!1),1)],p),B.t,B.w,B.n)
+m=p}return A.bK(l,n,new A.da(j,m,n,n),n,n,!0,n,n,!1)}}
 A.aYr.prototype={
 $1(a){var s=this.a
 B.c.Y(s.f,new A.aYq(s,a))},
