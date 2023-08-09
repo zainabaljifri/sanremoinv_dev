@@ -60313,9 +60313,8 @@ n.toString
 n=n?A.n("Cash Payment",j,j,j,j,j,j,j):A.n("Transfer Payment",j,j,j,j,j,j,j)}o=A.X(j,new A.ag(B.q,n,j),B.k,j,j,new A.aJ(j,j,r,o,j,j,j,B.x),j,j,j,j,j,j,j)
 r=A.cV(B.v,1)
 n=A.aV(10)
-p=A.e(p.CW)
 m=t.p
-n=A.X(j,A.aT(A.a([new A.ag(B.q,new A.jC(1,B.cV,A.n("Previous Problem: \n                                  "+p,3,j,j,j,j,j,j),j),j),new A.ag(B.q,new A.jC(1,B.cV,A.n("Technical Recommendation: \n                                  "+p,3,j,j,j,j,j,j),j),j)],m),B.r,B.w,B.n),B.k,j,j,new A.aJ(j,j,r,n,j,j,j,B.x),j,j,j,j,j,j,j)
+n=A.X(j,A.aT(A.a([new A.ag(B.q,new A.jC(1,B.cV,A.n("Previous Problem: \n                                  "+A.e(p.CW),3,j,j,j,j,j,j),j),j),new A.ag(B.q,new A.jC(1,B.cV,A.n("Technical Recommendation: \n                                  "+A.e(p.cx),3,j,j,j,j,j,j),j),j)],m),B.r,B.w,B.n),B.k,j,j,new A.aJ(j,j,r,n,j,j,j,B.x),j,j,j,j,j,j,j)
 r=A.cV(B.v,1)
 p=A.aV(10)
 l=k.as
