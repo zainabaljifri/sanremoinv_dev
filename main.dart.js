@@ -60934,7 +60934,9 @@ $1(a){var s=this.a
 s.n(new A.aW9(s,a))},
 $S:10}
 A.aW9.prototype={
-$0(){this.a.fx=J.E(this.b)},
+$0(){var s=this.b
+if(s==null)s=""
+this.a.fx=s},
 $S:0}
 A.aX4.prototype={
 $1(a){var s
