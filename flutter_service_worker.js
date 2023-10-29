@@ -3,7 +3,7 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "assets/AssetManifest.json": "38ce920bb94b053da8aae1a207a2333e",
+  "assets/AssetManifest.json": "ebc3d9888672d142e57a90934fb5670f",
 "assets/Assets/fonts/Poppins-Bold.ttf": "08c20a487911694291bd8c5de41315ad",
 "assets/Assets/fonts/Poppins-Medium.ttf": "bf59c687bc6d3a70204d3944082c5cc0",
 "assets/Assets/fonts/Poppins-Regular.ttf": "093ee89be9ede30383f39a899c485a82",
@@ -16,6 +16,7 @@ const RESOURCES = {
 "assets/Assets/Images/BatchBrewer.PNG": "2e1b94b1bd2f54fe3529400c7e24478c",
 "assets/Assets/Images/beans.png": "b184dd7eb4b403c0ffffdfca2056de66",
 "assets/Assets/Images/ceado.png": "be1befcf3fa29a4e9979044250faa681",
+"assets/Assets/Images/city_marker.png": "778672234e2bbb1747ed272f8df0b669",
 "assets/Assets/Images/clients_tickets.jpg": "1970b7fdaa5d6272f05724be2bcbbdc6",
 "assets/Assets/Images/closed.jpg": "62db9338e050842fe28352b58dee06ff",
 "assets/Assets/Images/COFFEbEANS.png": "fee1f977641c606d5b6e383f4e29ce53",
@@ -63,7 +64,7 @@ const RESOURCES = {
 "assets/fonts/MaterialIcons-Regular.otf": "95db9098c58fd6db106f1116bae85a0b",
 "assets/Languages/ar.json": "0ab8ab1e5513393c04c1524014feaeee",
 "assets/Languages/en.json": "076b0bf5c3bf9518128c78762defcdc2",
-"assets/NOTICES": "8bcfc1fb5ec8b08e30b6345ae579e8de",
+"assets/NOTICES": "00b79b9b8d6f56f00acd8b10430b453b",
 "assets/packages/cool_alert/assets/flare/error_check.flr": "d9f54791d0d79935d22206966707e4b3",
 "assets/packages/cool_alert/assets/flare/info_check.flr": "f6b81c2aa3ae36418c13bfd36d11ac04",
 "assets/packages/cool_alert/assets/flare/loading.flr": "b6987a8e6de74062b8c002539d2d043e",
@@ -74,6 +75,7 @@ const RESOURCES = {
 "assets/packages/font_awesome_flutter/lib/fonts/fa-regular-400.ttf": "0a94bab8e306520dc6ae14c2573972ad",
 "assets/packages/font_awesome_flutter/lib/fonts/fa-solid-900.ttf": "9cda082bd7cc5642096b56fa8db15b45",
 "assets/Repo/cities.json": "3711004e3ac750262bc781f4806cc809",
+"assets/Repo/geoCities.json": "6c242cd2f2490a1bc5e5615721040a0e",
 "assets/shaders/ink_sparkle.frag": "ae6c1fd6f6ee6ee952cde379095a8f3f",
 "canvaskit/canvaskit.js": "2bc454a691c631b07a9307ac4ca47797",
 "canvaskit/canvaskit.wasm": "bf50631470eb967688cca13ee181af62",
@@ -85,9 +87,9 @@ const RESOURCES = {
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "icons/Icon-maskable-192.png": "c457ef57daa1d16f64b27b786ec2ea3c",
 "icons/Icon-maskable-512.png": "301a7604d45b3e739efc881eb04896ea",
-"index.html": "b27059c2a29906058f3d23f59086e4fb",
-"/": "b27059c2a29906058f3d23f59086e4fb",
-"main.dart.js": "9bf2b2c5a87465137ddb560d8b908429",
+"index.html": "1c02d2a0ca31afaaa1acd0216609bc88",
+"/": "1c02d2a0ca31afaaa1acd0216609bc88",
+"main.dart.js": "0cc7e1472f8a73cab704a35088cf7807",
 "manifest.json": "3f92a849556967510ecd50602f08bc15",
 "version.json": "5e129f52952a920d64681e367187e4ef"
 };
