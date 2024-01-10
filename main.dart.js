@@ -66747,33 +66747,32 @@ k=j.dS
 k.toString
 o.at=k
 k=j.dJ
+o.T=k==null?"":k
+k=j.dx
 k.toString
-o.T=k
-j=j.dx
-j.toString
-o.fy.sB(0,j)
-j=o.v.CW
-j.toString
-o.go.sB(0,j)
-j=o.v.cx
-j.toString
-o.id.sB(0,j)
-j=o.v.k2
-j.toString
-o.k1.sB(0,j)
-j=o.v.ax
-j.toString
-o.k2.sB(0,j)
-j=o.v.k1
-j.toString
-o.k3.sB(0,j)
-j=B.b.ce(o.a3,new A.b0A(o))
-o.Z=j
-o.k4.sB(0,J.D(j.e))
-j=B.b.ce(o.a0,new A.b0B(o))
-o.b_=j
-j.toString
-n=o.DU(j)&&o.v.fy!=="M10X"
+o.fy.sB(0,k)
+k=o.v.CW
+k.toString
+o.go.sB(0,k)
+k=o.v.cx
+k.toString
+o.id.sB(0,k)
+k=o.v.k2
+k.toString
+o.k1.sB(0,k)
+k=o.v.ax
+k.toString
+o.k2.sB(0,k)
+k=o.v.k1
+k.toString
+o.k3.sB(0,k)
+k=B.b.ce(o.a3,new A.b0A(o))
+o.Z=k
+o.k4.sB(0,J.D(k.e))
+k=B.b.ce(o.a0,new A.b0B(o))
+o.b_=k
+k.toString
+n=o.DU(k)&&o.v.fy!=="M10X"
 s=n?6:7
 break
 case 6:k=o.b_
@@ -74927,18 +74926,18 @@ case 5:return A.u(null,r)
 case 1:return A.t(p,r)}})
 return A.v($async$kU,r)},
 rp(a){return this.az8(a)},
-az8(f4){var s=0,r=A.w(t.H),q=1,p,o=this,n,m,l,k,j,i,h,g,f,e,d,c,b,a,a0,a1,a2,a3,a4,a5,a6,a7,a8,a9,b0,b1,b2,b3,b4,b5,b6,b7,b8,b9,c0,c1,c2,c3,c4,c5,c6,c7,c8,c9,d0,d1,d2,d3,d4,d5,d6,d7,d8,d9,e0,e1,e2,e3,e4,e5,e6,e7,e8,e9,f0,f1,f2,f3
-var $async$rp=A.r(function(f5,f6){if(f5===1){p=f6
+az8(f5){var s=0,r=A.w(t.H),q=1,p,o=this,n,m,l,k,j,i,h,g,f,e,d,c,b,a,a0,a1,a2,a3,a4,a5,a6,a7,a8,a9,b0,b1,b2,b3,b4,b5,b6,b7,b8,b9,c0,c1,c2,c3,c4,c5,c6,c7,c8,c9,d0,d1,d2,d3,d4,d5,d6,d7,d8,d9,e0,e1,e2,e3,e4,e5,e6,e7,e8,e9,f0,f1,f2,f3,f4
+var $async$rp=A.r(function(f6,f7){if(f6===1){p=f7
 s=q}while(true)switch(s){case 0:q=3
 B.b.a_(o.a)
 n=A.a([],t.g)
 g=$.bV
 f=(g==null?$.bV=$.dT():g).e5(0,"[DEFAULT]")
 A.cv(f,$.dJ(),!0)
-m=A.h6(A.h8(new A.dk(f)).gfO().ev(0,"SiteVisits/"+f4))
+m=A.h6(A.h8(new A.dk(f)).gfO().ev(0,"SiteVisits/"+f5))
 s=6
 return A.o(m.fp(),$async$rp)
-case 6:l=f6
+case 6:l=f7
 for(g=J.hK(l).a,g=g.gdQ(g).dL(0,A.iF(),t.tO),g=g.ga8(g),e=t.f;g.u();){d={}
 k=g.gL(g)
 j=e.a(k.a.a.h(0,"value"))
@@ -75080,14 +75079,16 @@ e9=J.b(j,"reworkReason")
 f0=J.b(j,"reworkType")
 f1=J.b(j,"isPrevMaintenance")
 if(f1==null)f1=!1
-J.aY(n,new A.hj(a,a0,a1,a2,a3,a4,a5,a6,a7,a8,a9,b0,b1,b2,b3,b5,b6,b7,b9,c0,c1,c2,c3,c4,c5,c6,c7,c8,b4,c9,d0,f4,d1,d3,d5,d2,d,d4,e0,d9,null,d8,null,null,null,null,d7,d6,e1,null,e6,null,e3,e2,null,null,e5,null,e7,c,null,null,b8,null,null,e4,null,e8,e9,f0,f1,null,null,$.ao()))}o.a=n
+f2=J.b(j,"explaination")
+if(f2==null)f2=""
+J.aY(n,new A.hj(a,a0,a1,a2,a3,a4,a5,a6,a7,a8,a9,b0,b1,b2,b3,b5,b6,b7,b9,c0,c1,c2,c3,c4,c5,c6,c7,c8,b4,c9,d0,f5,d1,d3,d5,d2,d,d4,e0,d9,null,d8,null,null,null,null,d7,d6,e1,null,e6,null,e3,e2,null,null,e5,null,e7,c,null,null,b8,null,null,e4,null,e8,e9,f0,f1,null,f2,$.ao()))}o.a=n
 o.ad()
 q=1
 s=5
 break
 case 3:q=2
-f3=p
-h=A.Z(f3)
+f4=p
+h=A.Z(f4)
 A.i6("Shady")
 A.R(h)
 s=5
@@ -75987,8 +75988,8 @@ break
 case 1:return A.u(q,r)}})
 return A.v($async$tL,r)},
 EK(a){return this.azd(a)},
-azd(f1){var s=0,r=A.w(t.H),q=1,p,o=this,n,m,l,k,j,i,h,g,f,e,d,c,b,a,a0,a1,a2,a3,a4,a5,a6,a7,a8,a9,b0,b1,b2,b3,b4,b5,b6,b7,b8,b9,c0,c1,c2,c3,c4,c5,c6,c7,c8,c9,d0,d1,d2,d3,d4,d5,d6,d7,d8,d9,e0,e1,e2,e3,e4,e5,e6,e7,e8,e9,f0
-var $async$EK=A.r(function(f2,f3){if(f2===1){p=f3
+azd(f2){var s=0,r=A.w(t.H),q=1,p,o=this,n,m,l,k,j,i,h,g,f,e,d,c,b,a,a0,a1,a2,a3,a4,a5,a6,a7,a8,a9,b0,b1,b2,b3,b4,b5,b6,b7,b8,b9,c0,c1,c2,c3,c4,c5,c6,c7,c8,c9,d0,d1,d2,d3,d4,d5,d6,d7,d8,d9,e0,e1,e2,e3,e4,e5,e6,e7,e8,e9,f0,f1
+var $async$EK=A.r(function(f3,f4){if(f3===1){p=f4
 s=q}while(true)switch(s){case 0:q=3
 n=A.a([],t.g)
 h=$.bV
@@ -75997,10 +75998,10 @@ A.cv(g,$.dJ(),!0)
 m=A.h6(A.h8(new A.dk(g)).gfO().ev(0,"SiteVisits/ExchangeTicketsCS"))
 s=6
 return A.o(m.fp(),$async$EK)
-case 6:l=f3
+case 6:l=f4
 for(h=J.hK(l).a,h=h.gdQ(h).dL(0,A.iF(),t.tO),h=h.ga8(h),f=t.f,e=t.N,d=t.z;h.u();){k=h.gL(h)
 j=f.a(k.a.a.h(0,"value"))
-if(J.f(J.b(J.b(j,"goingMachine"),"Delivery"),"Tech"))if(J.f(J.b(J.b(j,"goingMachine"),"techName"),f1)&&!J.f(J.b(J.b(j,"goingMachine"),"status"),"Delivered")){c=J.b(j,"appDescrption")
+if(J.f(J.b(J.b(j,"goingMachine"),"Delivery"),"Tech"))if(J.f(J.b(J.b(j,"goingMachine"),"techName"),f2)&&!J.f(J.b(J.b(j,"goingMachine"),"status"),"Delivered")){c=J.b(j,"appDescrption")
 if(c==null)c=""
 b=J.b(j,"assignDate")
 if(b==null)b=""
@@ -76099,14 +76100,16 @@ e6=J.b(j,"reworkReason")
 e7=J.b(j,"reworkType")
 e8=J.b(j,"isPrevMaintenance")
 if(e8==null)e8=!1
-J.aY(n,new A.hj(c,b,a,a0,a1,a2,a3,a4,a5,a6,a7,a8,a9,b0,b1,b3,b4,b5,b7,b8,b9,c0,c1,c2,c3,c4,c5,c6,b2,c7,c8,null,c9,d1,d3,d0,null,d2,d8,d7,null,d6,null,null,null,null,d5,d4,d9,null,e1,null,null,null,e3,e2,e0,null,null,null,null,null,b6,null,null,e4,null,e5,e6,e7,e8,null,null,$.ao()))}}o.a=n
+e9=J.b(j,"explaination")
+if(e9==null)e9=""
+J.aY(n,new A.hj(c,b,a,a0,a1,a2,a3,a4,a5,a6,a7,a8,a9,b0,b1,b3,b4,b5,b7,b8,b9,c0,c1,c2,c3,c4,c5,c6,b2,c7,c8,null,c9,d1,d3,d0,null,d2,d8,d7,null,d6,null,null,null,null,d5,d4,d9,null,e1,null,null,null,e3,e2,e0,null,null,null,null,null,b6,null,null,e4,null,e5,e6,e7,e8,null,e9,$.ao()))}}o.a=n
 o.ad()
 q=1
 s=5
 break
 case 3:q=2
-f0=p
-i=A.Z(f0)
+f1=p
+i=A.Z(f1)
 A.R(i)
 s=5
 break
@@ -76116,8 +76119,8 @@ case 5:return A.u(null,r)
 case 1:return A.t(p,r)}})
 return A.v($async$EK,r)},
 EJ(a){return this.azc(a)},
-azc(f1){var s=0,r=A.w(t.H),q=1,p,o=this,n,m,l,k,j,i,h,g,f,e,d,c,b,a,a0,a1,a2,a3,a4,a5,a6,a7,a8,a9,b0,b1,b2,b3,b4,b5,b6,b7,b8,b9,c0,c1,c2,c3,c4,c5,c6,c7,c8,c9,d0,d1,d2,d3,d4,d5,d6,d7,d8,d9,e0,e1,e2,e3,e4,e5,e6,e7,e8,e9,f0
-var $async$EJ=A.r(function(f2,f3){if(f2===1){p=f3
+azc(f2){var s=0,r=A.w(t.H),q=1,p,o=this,n,m,l,k,j,i,h,g,f,e,d,c,b,a,a0,a1,a2,a3,a4,a5,a6,a7,a8,a9,b0,b1,b2,b3,b4,b5,b6,b7,b8,b9,c0,c1,c2,c3,c4,c5,c6,c7,c8,c9,d0,d1,d2,d3,d4,d5,d6,d7,d8,d9,e0,e1,e2,e3,e4,e5,e6,e7,e8,e9,f0,f1
+var $async$EJ=A.r(function(f3,f4){if(f3===1){p=f4
 s=q}while(true)switch(s){case 0:q=3
 n=A.a([],t.g)
 h=$.bV
@@ -76126,10 +76129,10 @@ A.cv(g,$.dJ(),!0)
 m=A.h6(A.h8(new A.dk(g)).gfO().ev(0,"SiteVisits/DileveryTicketsCS"))
 s=6
 return A.o(m.fp(),$async$EJ)
-case 6:l=f3
+case 6:l=f4
 for(h=J.hK(l).a,h=h.gdQ(h).dL(0,A.iF(),t.tO),h=h.ga8(h),f=t.f,e=t.N,d=t.z;h.u();){k=h.gL(h)
 j=f.a(k.a.a.h(0,"value"))
-if(J.f(J.b(j,"techName"),f1)&&!J.f(J.b(j,"status"),"Delivered")){c=J.b(j,"appDescrption")
+if(J.f(J.b(j,"techName"),f2)&&!J.f(J.b(j,"status"),"Delivered")){c=J.b(j,"appDescrption")
 if(c==null)c=""
 b=J.b(j,"assignDate")
 if(b==null)b=""
@@ -76228,14 +76231,16 @@ e6=J.b(j,"reworkReason")
 e7=J.b(j,"reworkType")
 e8=J.b(j,"isPrevMaintenance")
 if(e8==null)e8=!1
-J.aY(n,new A.hj(c,b,a,a0,a1,a2,a3,a4,a5,a6,a7,a8,a9,b0,b1,b3,b4,b5,b7,b8,b9,c0,c1,c2,c3,c4,c5,c6,b2,c7,c8,null,c9,d1,d3,d0,null,d2,d8,d7,null,d6,null,null,null,null,d5,d4,d9,null,e1,null,null,null,e3,e2,e0,null,null,null,null,null,b6,null,null,e4,null,e5,e6,e7,e8,null,null,$.ao()))}}o.a=n
+e9=J.b(j,"explaination")
+if(e9==null)e9=""
+J.aY(n,new A.hj(c,b,a,a0,a1,a2,a3,a4,a5,a6,a7,a8,a9,b0,b1,b3,b4,b5,b7,b8,b9,c0,c1,c2,c3,c4,c5,c6,b2,c7,c8,null,c9,d1,d3,d0,null,d2,d8,d7,null,d6,null,null,null,null,d5,d4,d9,null,e1,null,null,null,e3,e2,e0,null,null,null,null,null,b6,null,null,e4,null,e5,e6,e7,e8,null,e9,$.ao()))}}o.a=n
 o.ad()
 q=1
 s=5
 break
 case 3:q=2
-f0=p
-i=A.Z(f0)
+f1=p
+i=A.Z(f1)
 A.R(i)
 s=5
 break
@@ -76245,8 +76250,8 @@ case 5:return A.u(null,r)
 case 1:return A.t(p,r)}})
 return A.v($async$EJ,r)},
 EL(a){return this.aze(a)},
-aze(f1){var s=0,r=A.w(t.H),q=1,p,o=this,n,m,l,k,j,i,h,g,f,e,d,c,b,a,a0,a1,a2,a3,a4,a5,a6,a7,a8,a9,b0,b1,b2,b3,b4,b5,b6,b7,b8,b9,c0,c1,c2,c3,c4,c5,c6,c7,c8,c9,d0,d1,d2,d3,d4,d5,d6,d7,d8,d9,e0,e1,e2,e3,e4,e5,e6,e7,e8,e9,f0
-var $async$EL=A.r(function(f2,f3){if(f2===1){p=f3
+aze(f2){var s=0,r=A.w(t.H),q=1,p,o=this,n,m,l,k,j,i,h,g,f,e,d,c,b,a,a0,a1,a2,a3,a4,a5,a6,a7,a8,a9,b0,b1,b2,b3,b4,b5,b6,b7,b8,b9,c0,c1,c2,c3,c4,c5,c6,c7,c8,c9,d0,d1,d2,d3,d4,d5,d6,d7,d8,d9,e0,e1,e2,e3,e4,e5,e6,e7,e8,e9,f0,f1
+var $async$EL=A.r(function(f3,f4){if(f3===1){p=f4
 s=q}while(true)switch(s){case 0:q=3
 n=A.a([],t.g)
 h=$.bV
@@ -76255,10 +76260,10 @@ A.cv(g,$.dJ(),!0)
 m=A.h6(A.h8(new A.dk(g)).gfO().ev(0,"SiteVisits/PickupTicketsCS"))
 s=6
 return A.o(m.fp(),$async$EL)
-case 6:l=f3
+case 6:l=f4
 for(h=J.hK(l).a,h=h.gdQ(h).dL(0,A.iF(),t.tO),h=h.ga8(h),f=t.f,e=t.N,d=t.z;h.u();){k=h.gL(h)
 j=f.a(k.a.a.h(0,"value"))
-if(J.f(J.b(j,"techName"),f1)&&!J.f(J.b(j,"status"),"Arrived")){c=J.b(j,"appDescrption")
+if(J.f(J.b(j,"techName"),f2)&&!J.f(J.b(j,"status"),"Arrived")){c=J.b(j,"appDescrption")
 if(c==null)c=""
 b=J.b(j,"assignDate")
 if(b==null)b=""
@@ -76357,14 +76362,16 @@ e6=J.b(j,"reworkReason")
 e7=J.b(j,"reworkType")
 e8=J.b(j,"isPrevMaintenance")
 if(e8==null)e8=!1
-J.aY(n,new A.hj(c,b,a,a0,a1,a2,a3,a4,a5,a6,a7,a8,a9,b0,b1,b3,b4,b5,b7,b8,b9,c0,c1,c2,c3,c4,c5,c6,b2,c7,c8,null,c9,d1,d3,d0,null,d2,d8,d7,null,d6,null,null,null,null,d5,d4,d9,null,e1,null,null,null,e4,e3,e0,null,null,null,null,null,b6,null,null,e2,null,e5,e6,e7,e8,null,null,$.ao()))}}o.a=n
+e9=J.b(j,"explaination")
+if(e9==null)e9=""
+J.aY(n,new A.hj(c,b,a,a0,a1,a2,a3,a4,a5,a6,a7,a8,a9,b0,b1,b3,b4,b5,b7,b8,b9,c0,c1,c2,c3,c4,c5,c6,b2,c7,c8,null,c9,d1,d3,d0,null,d2,d8,d7,null,d6,null,null,null,null,d5,d4,d9,null,e1,null,null,null,e4,e3,e0,null,null,null,null,null,b6,null,null,e2,null,e5,e6,e7,e8,null,e9,$.ao()))}}o.a=n
 o.ad()
 q=1
 s=5
 break
 case 3:q=2
-f0=p
-i=A.Z(f0)
+f1=p
+i=A.Z(f1)
 A.R(i)
 s=5
 break
@@ -76720,93 +76727,95 @@ A.aLJ.prototype={
 $2(a,b){return J.e2(a.gm(a),b.gm(b))},
 $S:65}
 A.aLO.prototype={
-$2(c9,d0){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,c,b,a,a0,a1,a2,a3,a4,a5,a6,a7,a8,a9,b0,b1,b2,b3,b4,b5,b6,b7,b8,b9,c0,c1,c2,c3,c4,c5=null,c6="N/A",c7=J.ar(d0),c8=c7.h(d0,"appDescrption")
-if(c8==null)c8=""
-s=c7.h(d0,"assignDate")
+$2(d0,d1){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,c,b,a,a0,a1,a2,a3,a4,a5,a6,a7,a8,a9,b0,b1,b2,b3,b4,b5,b6,b7,b8,b9,c0,c1,c2,c3,c4,c5,c6=null,c7="N/A",c8=J.ar(d1),c9=c8.h(d1,"appDescrption")
+if(c9==null)c9=""
+s=c8.h(d1,"assignDate")
 if(s==null)s=""
-r=c7.h(d0,"cafeLocation")
+r=c8.h(d1,"cafeLocation")
 if(r==null)r=""
-q=c7.h(d0,"cafeName")
+q=c8.h(d1,"cafeName")
 if(q==null)q=""
-p=c7.h(d0,"city")
+p=c8.h(d1,"city")
 if(p==null)p=""
-o=c7.h(d0,"createdBy")
+o=c8.h(d1,"createdBy")
 if(o==null)o=""
-n=c7.h(d0,"creationDate")
+n=c8.h(d1,"creationDate")
 if(n==null)n=""
-m=c7.h(d0,"customerMobile")
+m=c8.h(d1,"customerMobile")
 if(m==null)m=""
-l=c7.h(d0,"customerName")
+l=c8.h(d1,"customerName")
 if(l==null)l=""
-k=c7.h(d0,"customerNumber")
+k=c8.h(d1,"customerNumber")
 if(k==null)k=""
-j=c7.h(d0,"didContact")
+j=c8.h(d1,"didContact")
 if(j==null)j=!1
-i=c7.h(d0,"extraContactNumber")
-h=c7.h(d0,"freeParts")
+i=c8.h(d1,"extraContactNumber")
+h=c8.h(d1,"freeParts")
 if(h==null)h=!1
-g=c7.h(d0,"freeVisit")
+g=c8.h(d1,"freeVisit")
 if(g==null)g=!1
-f=c7.h(d0,"from")
+f=c8.h(d1,"from")
 if(f==null)f=""
-e=c7.h(d0,"to")
+e=c8.h(d1,"to")
 if(e==null)e=""
-d=c7.h(d0,"lastEditBy")
+d=c8.h(d1,"lastEditBy")
 if(d==null)d=""
-c=c7.h(d0,"mainCategory")
+c=c8.h(d1,"mainCategory")
 if(c==null)c=""
-b=c7.h(d0,"problemDesc")
+b=c8.h(d1,"problemDesc")
 if(b==null)b=""
-a=c7.h(d0,"serviceType")
-if(a==null)a=c6
-a0=c7.h(d0,"recomendation")
+a=c8.h(d1,"serviceType")
+if(a==null)a=c7
+a0=c8.h(d1,"recomendation")
 if(a0==null)a0=""
-a1=c7.h(d0,"region")
+a1=c8.h(d1,"region")
 if(a1==null)a1=""
-a2=c7.h(d0,"rowDataAddress")
+a2=c8.h(d1,"rowDataAddress")
 if(a2==null)a2=""
-a3=c7.h(d0,"serialNumber")
+a3=c8.h(d1,"serialNumber")
 if(a3==null)a3=""
-a4=c7.h(d0,"sheetID")
+a4=c8.h(d1,"sheetID")
 if(a4==null)a4=""
-a5=c7.h(d0,"sheetURL")
+a5=c8.h(d1,"sheetURL")
 if(a5==null)a5=""
-a6=c7.h(d0,"status")
+a6=c8.h(d1,"status")
 if(a6==null)a6=""
-a7=c7.h(d0,"subCategory")
+a7=c8.h(d1,"subCategory")
 if(a7==null)a7=""
-a8=c7.h(d0,"techName")
+a8=c8.h(d1,"techName")
 if(a8==null)a8=""
-a9=c7.h(d0,"ticketNumber")
+a9=c8.h(d1,"ticketNumber")
 if(a9==null)a9=""
-b0=c7.h(d0,"visitDate")
+b0=c8.h(d1,"visitDate")
 if(b0==null)b0=""
-b1=c7.h(d0,"laborCharges")
+b1=c8.h(d1,"laborCharges")
 b1=A.fs(b1==null?"0":b1)
 b2=t.f
-b3=B.o.bV(0,B.o.bG(b2.a(c7.h(d0,"deliveredItems")),c5),c5)
-b4=c7.h(d0,"deliveryType")
+b3=B.o.bV(0,B.o.bG(b2.a(c8.h(d1,"deliveredItems")),c6),c6)
+b4=c8.h(d1,"deliveryType")
 if(b4==null)b4=""
-b5=c7.h(d0,"soNumber")
+b5=c8.h(d1,"soNumber")
 if(b5==null)b5=""
-b6=c7.h(d0,"pdfReportUrl")
-if(b6==null)b6=c6
-b7=c7.h(d0,"pdfInvUrl")
-if(b7==null)b7=c6
-b8=c7.h(d0,"pdfInvName")
-if(b8==null)b8=c6
-b9=c7.h(d0,"pdfReportName")
-if(b9==null)b9=c6
-c0=c7.h(d0,"isCash")
+b6=c8.h(d1,"pdfReportUrl")
+if(b6==null)b6=c7
+b7=c8.h(d1,"pdfInvUrl")
+if(b7==null)b7=c7
+b8=c8.h(d1,"pdfInvName")
+if(b8==null)b8=c7
+b9=c8.h(d1,"pdfReportName")
+if(b9==null)b9=c7
+c0=c8.h(d1,"isCash")
 if(c0==null)c0=!1
-c1=c7.h(d0,"techCloseDate")
-c2=c7.h(d0,"isAdvancePayment")
+c1=c8.h(d1,"techCloseDate")
+c2=c8.h(d1,"isAdvancePayment")
 if(c2==null)c2=!1
-b2=B.o.bV(0,B.o.bG(b2.a(c7.h(d0,"ticketComments")),c5),c5)
-c3=c7.h(d0,"reworkReason")
-c4=c7.h(d0,"reworkType")
-c7=c7.h(d0,"isPrevMaintenance")
-this.a.push(A.a6i(c5,c5,c5,s,r,q,p,c1,c5,c5,o,n,m,l,k,b3,b4,j,c5,i,c9,h,g,f,c5,c5,c5,c5,b7,b8,c2,c5,c0,c5,c7==null?!1:c7,c5,c5,c5,c5,b1,d,c5,c5,c8,a3,c5,c,c5,b,a0,a1,b6,b9,c3,c4,c5,a2,c5,a,a4,a5,b5,a6,a7,a8,b2,a9,c5,e,c5,c5,b0,c5))},
+b2=B.o.bV(0,B.o.bG(b2.a(c8.h(d1,"ticketComments")),c6),c6)
+c3=c8.h(d1,"reworkReason")
+c4=c8.h(d1,"reworkType")
+c5=c8.h(d1,"isPrevMaintenance")
+if(c5==null)c5=!1
+c8=c8.h(d1,"explaination")
+this.a.push(A.a6i(c6,c6,c6,s,r,q,p,c1,c6,c6,o,n,m,l,k,b3,b4,j,c8==null?"":c8,i,d0,h,g,f,c6,c6,c6,c6,b7,b8,c2,c6,c0,c6,c5,c6,c6,c6,c6,b1,d,c6,c6,c9,a3,c6,c,c6,b,a0,a1,b6,b9,c3,c4,c6,a2,c6,a,a4,a5,b5,a6,a7,a8,b2,a9,c6,e,c6,c6,b0,c6))},
 $S:9}
 A.aLP.prototype={
 $2(a,b){var s,r=b.y2
@@ -76830,113 +76839,115 @@ r.d=s
 r.ad()},
 $S:93}
 A.aLV.prototype={
-$2(d7,d8){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,c,b,a,a0,a1,a2,a3,a4,a5,a6,a7,a8,a9,b0,b1,b2,b3,b4,b5,b6,b7,b8,b9,c0,c1,c2,c3,c4,c5,c6,c7,c8,c9,d0,d1,d2,d3,d4=null,d5=J.ar(d8),d6=d5.h(d8,"machineType")
-if(d6==null)d6="Espresso Machines"
-s=d5.h(d8,"appDescrption")
+$2(d8,d9){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,c,b,a,a0,a1,a2,a3,a4,a5,a6,a7,a8,a9,b0,b1,b2,b3,b4,b5,b6,b7,b8,b9,c0,c1,c2,c3,c4,c5,c6,c7,c8,c9,d0,d1,d2,d3,d4,d5=null,d6=J.ar(d9),d7=d6.h(d9,"machineType")
+if(d7==null)d7="Espresso Machines"
+s=d6.h(d9,"appDescrption")
 if(s==null)s=""
-r=d5.h(d8,"assignDate")
+r=d6.h(d9,"assignDate")
 if(r==null)r=""
-q=d5.h(d8,"cafeLocation")
+q=d6.h(d9,"cafeLocation")
 if(q==null)q=""
-p=d5.h(d8,"cafeName")
+p=d6.h(d9,"cafeName")
 if(p==null)p=""
-o=d5.h(d8,"city")
+o=d6.h(d9,"city")
 if(o==null)o=""
-n=d5.h(d8,"createdBy")
+n=d6.h(d9,"createdBy")
 if(n==null)n=""
-m=d5.h(d8,"creationDate")
+m=d6.h(d9,"creationDate")
 if(m==null)m=""
-l=d5.h(d8,"customerMobile")
+l=d6.h(d9,"customerMobile")
 if(l==null)l=""
-k=d5.h(d8,"customerName")
+k=d6.h(d9,"customerName")
 if(k==null)k=""
-j=d5.h(d8,"customerNumber")
+j=d6.h(d9,"customerNumber")
 if(j==null)j=""
-i=d5.h(d8,"didContact")
+i=d6.h(d9,"didContact")
 if(i==null)i=!1
-h=d5.h(d8,"extraContactNumber")
+h=d6.h(d9,"extraContactNumber")
 if(h==null)h=""
-g=d5.h(d8,"freeParts")
+g=d6.h(d9,"freeParts")
 if(g==null)g=!1
-f=d5.h(d8,"freeVisit")
+f=d6.h(d9,"freeVisit")
 if(f==null)f=!1
-e=d5.h(d8,"from")
+e=d6.h(d9,"from")
 if(e==null)e=""
-d=d5.h(d8,"to")
+d=d6.h(d9,"to")
 if(d==null)d=""
-c=d5.h(d8,"lastEditBy")
+c=d6.h(d9,"lastEditBy")
 if(c==null)c=""
-b=d5.h(d8,"mainCategory")
+b=d6.h(d9,"mainCategory")
 if(b==null)b=""
-a=d5.h(d8,"problemDesc")
+a=d6.h(d9,"problemDesc")
 if(a==null)a=""
-a0=d5.h(d8,"recomendation")
+a0=d6.h(d9,"recomendation")
 if(a0==null)a0=""
-a1=d5.h(d8,"region")
+a1=d6.h(d9,"region")
 if(a1==null)a1=""
-a2=d5.h(d8,"rowDataAddress")
+a2=d6.h(d9,"rowDataAddress")
 if(a2==null)a2=""
-a3=d5.h(d8,"serialNumber")
+a3=d6.h(d9,"serialNumber")
 if(a3==null)a3=""
-a4=d5.h(d8,"sheetID")
+a4=d6.h(d9,"sheetID")
 if(a4==null)a4=""
-a5=d5.h(d8,"sheetURL")
+a5=d6.h(d9,"sheetURL")
 if(a5==null)a5=""
-a6=d5.h(d8,"status")
+a6=d6.h(d9,"status")
 if(a6==null)a6=""
-a7=d5.h(d8,"subCategory")
+a7=d6.h(d9,"subCategory")
 if(a7==null)a7=""
-a8=d5.h(d8,"techName")
+a8=d6.h(d9,"techName")
 if(a8==null)a8=""
-a9=d5.h(d8,"ticketNumber")
+a9=d6.h(d9,"ticketNumber")
 if(a9==null)a9=""
-b0=d5.h(d8,"visitDate")
+b0=d6.h(d9,"visitDate")
 if(b0==null)b0=""
-b1=d5.h(d8,"laborCharges")
+b1=d6.h(d9,"laborCharges")
 b1=A.fs(b1==null?"0":b1)
 b2=t.f
-b3=B.o.bV(0,B.o.bG(b2.a(d5.h(d8,"deliveredItems")),d4),d4)
-b4=d5.h(d8,"deliveryType")
+b3=B.o.bV(0,B.o.bG(b2.a(d6.h(d9,"deliveredItems")),d5),d5)
+b4=d6.h(d9,"deliveryType")
 if(b4==null)b4=""
-b5=d5.h(d8,"soNumber")
+b5=d6.h(d9,"soNumber")
 if(b5==null)b5=""
-b6=d5.h(d8,"isUrgent")
+b6=d6.h(d9,"isUrgent")
 if(b6==null)b6=!1
-b7=d5.h(d8,"isLate")
+b7=d6.h(d9,"isLate")
 if(b7==null)b7=!1
-b8=d5.h(d8,"techCloseDate")
+b8=d6.h(d9,"techCloseDate")
 if(b8==null)b8=""
-b9=d5.h(d8,"pdfReportUrl")
+b9=d6.h(d9,"pdfReportUrl")
 if(b9==null)b9=""
-c0=d5.h(d8,"viedo")
+c0=d6.h(d9,"viedo")
 if(c0==null)c0=""
-c1=d5.h(d8,"image")
+c1=d6.h(d9,"image")
 if(c1==null)c1=""
-c2=d5.h(d8,"time")
+c2=d6.h(d9,"time")
 if(c2==null)c2=""
-c3=d5.h(d8,"isApproved")
+c3=d6.h(d9,"isApproved")
 if(c3==null)c3=!1
-c4=d5.h(d8,"isCash")
+c4=d6.h(d9,"isCash")
 if(c4==null)c4=!1
-c5=d5.h(d8,"comingMachine")
+c5=d6.h(d9,"comingMachine")
 if(c5==null)c5=A.Y(["",""],t.N,t.z)
-c6=d5.h(d8,"goingMachine")
+c6=d6.h(d9,"goingMachine")
 if(c6==null)c6=A.Y(["",""],t.N,t.z)
-c7=d5.h(d8,"Issue")
+c7=d6.h(d9,"Issue")
 if(c7==null)c7=""
-c8=d5.h(d8,"serviceType")
+c8=d6.h(d9,"serviceType")
 if(c8==null)c8="N/A"
-c9=d5.h(d8,"hasReplacment")
+c9=d6.h(d9,"hasReplacment")
 if(c9==null)c9=!1
-d0=d5.h(d8,"withReplacement")
+d0=d6.h(d9,"withReplacement")
 if(d0==null)d0=!1
-d1=d5.h(d8,"isAdvancePayment")
+d1=d6.h(d9,"isAdvancePayment")
 if(d1==null)d1=!1
-b2=B.o.bV(0,B.o.bG(b2.a(d5.h(d8,"ticketComments")),d4),d4)
-d2=d5.h(d8,"reworkReason")
-d3=d5.h(d8,"reworkType")
-d5=d5.h(d8,"isPrevMaintenance")
-this.a.push(A.a6i(d4,d4,d4,r,q,p,o,b8,c5,d4,n,m,l,k,j,b3,b4,i,d4,h,d7,g,f,e,"WaitingPostCS",c6,c9,d4,d4,d4,d1,c3,c4,b7,d5==null?!1:d5,b6,c7,d4,d4,b1,c,d4,c1,s,a3,d6,b,d4,a,a0,a1,b9,d4,d2,d3,d4,a2,d4,c8,a4,a5,b5,a6,a7,a8,b2,a9,c2,d,d4,c0,b0,d0))},
+b2=B.o.bV(0,B.o.bG(b2.a(d6.h(d9,"ticketComments")),d5),d5)
+d2=d6.h(d9,"reworkReason")
+d3=d6.h(d9,"reworkType")
+d4=d6.h(d9,"isPrevMaintenance")
+if(d4==null)d4=!1
+d6=d6.h(d9,"explaination")
+this.a.push(A.a6i(d5,d5,d5,r,q,p,o,b8,c5,d5,n,m,l,k,j,b3,b4,i,d6==null?"":d6,h,d8,g,f,e,"WaitingPostCS",c6,c9,d5,d5,d5,d1,c3,c4,b7,d4,b6,c7,d5,d5,b1,c,d5,c1,s,a3,d7,b,d5,a,a0,a1,b9,d5,d2,d3,d5,a2,d5,c8,a4,a5,b5,a6,a7,a8,b2,a9,c2,d,d5,c0,b0,d0))},
 $S:9}
 A.aLN.prototype={
 $1(a){var s=this.a
