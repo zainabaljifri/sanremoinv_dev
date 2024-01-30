@@ -63522,8 +63522,8 @@ r=p.rx.a
 r.toString
 p.y.sB(0,r)}catch(q){s=A.Z(q)
 A.R(s)}},
-cu(){var s=0,r=A.w(t.N),q,p=this,o,n,m,l,k,j,i,h,g,f,e,d,c,b,a,a0,a1,a2,a3,a4,a5,a6,a7,a8,a9,b0,b1,b2
-var $async$cu=A.r(function(b3,b4){if(b3===1)return A.t(b4,r)
+cu(){var s=0,r=A.w(t.N),q,p=this,o,n,m,l,k,j,i,h,g,f,e,d,c,b,a,a0,a1,a2,a3,a4,a5,a6,a7,a8,a9,b0,b1,b2,b3
+var $async$cu=A.r(function(b4,b5){if(b4===1)return A.t(b5,r)
 while(true)switch(s){case 0:new A.ax(Date.now(),!1).j(0).split(" ")
 o=J.b2(p.as.a.a)
 n=J.b2(p.Q.a.a)
@@ -63553,7 +63553,9 @@ a9=J.b2(p.ch.a.a)
 b0=p.CW.a.a
 b1=k.k3
 b1.toString
-b2=A.Y(["cafeName",o,"customerMobile",n,"customerName",m,"extraContactNumber",l,"createdBy",j,"creationDate",i,"lastEditBy",h,"visitDate",g,"didContact",f,"city",e,"region",d,"techName",c,"mainCategory","Pickup","subCategory","Pickup","deliveryType",b,"customerNumber",a,"cafeLocation",a0,"from",a1,"to",a2,"Issue",a3,"serviceType",a4,"hasReplacment",a5,"status",a6,"rowDataAddress",a7,"appDescrption",a8,"serialNumber",a9,"problemDesc",b0,"firebaseID",b1,"withReplacement",p.k4,"machineCategory",k.aQ],t.N,t.z)
+b2=p.k4
+k=k.aQ
+b3=A.Y(["cafeName",o,"customerMobile",n,"customerName",m,"extraContactNumber",l,"createdBy",j,"creationDate",i,"lastEditBy",h,"visitDate",g,"didContact",f,"city",e,"region",d,"techName",c,"mainCategory","Pickup","subCategory","Pickup","deliveryType",b,"customerNumber",a,"cafeLocation",a0,"from",a1,"to",a2,"Issue",a3,"serviceType",a4,"hasReplacment",a5,"status",a6,"rowDataAddress",a7,"appDescrption",a8,"serialNumber",a9,"problemDesc",b0,"firebaseID",b1,"withReplacement",b2,"machineCategory",k,"isJCV2",k==="espresso_machine"],t.N,t.z)
 s=p.ok!=="N/A"?3:5
 break
 case 3:s=p.d.gaj().ki()?6:7
@@ -63561,8 +63563,8 @@ break
 case 6:o=p.c
 o.toString
 s=8
-return A.o(A.P(o,!1,t.a).vf(b2,u.L+A.e(p.w.k3)+".json"),$async$cu)
-case 8:q=b4
+return A.o(A.P(o,!1,t.a).vf(b3,u.L+A.e(p.w.k3)+".json"),$async$cu)
+case 8:q=b5
 s=1
 break
 case 7:s=4
@@ -63570,8 +63572,8 @@ break
 case 5:o=p.c
 o.toString
 s=9
-return A.o(A.P(o,!1,t.a).vf(b2,u.L+A.e(p.w.k3)+".json"),$async$cu)
-case 9:q=b4
+return A.o(A.P(o,!1,t.a).vf(b3,u.L+A.e(p.w.k3)+".json"),$async$cu)
+case 9:q=b5
 s=1
 break
 case 4:q="FAILED"
@@ -64349,6 +64351,7 @@ n.k(0,"appDescrption",p.r.a.a)
 n.k(0,"serialNumber",J.b2(p.ax.a.a))
 n.k(0,"machineCategory",p.a.c)
 n.k(0,"withReplacement",null)
+n.k(0,"isJCV2",p.a.c==="espresso_machine")
 m=p.fr
 l=m.a.a
 if(l!=null&&l!=="")n.k(0,"ticketComments",A.Y([B.h.j(Date.now()),A.Y(["comment",J.b2(m.a.a),"username",$.ct,"status","active","date",A.Aa("yyyy-MM-dd  HH:mm",null).ed(0,new A.ax(Date.now(),!1))],o,t.ob)],o,t.Kb))
@@ -73765,7 +73768,7 @@ gaO(a){return this.a}}
 A.af4.prototype={}
 A.hj.prototype={
 j(a){var s=this
-return"Ticket(machineModel: "+A.e(s.a)+", assignDate: "+A.e(s.b)+", cafeLocation: "+A.e(s.c)+", cafeName: "+A.e(s.d)+", city: "+A.e(s.e)+", createdBy: "+A.e(s.f)+", creationDate: "+A.e(s.r)+", customerMobile: "+A.e(s.w)+", customerName: "+A.e(s.x)+", customerNumber: "+A.e(s.y)+", didContact: "+A.e(s.z)+", extraContactNumber: "+A.e(s.Q)+", freeParts: "+A.e(s.as)+", freeVisit: "+A.e(s.at)+", from: "+A.e(s.ax)+", lastEditBy: "+A.e(s.ay)+", mainCategory: "+A.e(s.ch)+", problemDesc: "+A.e(s.CW)+", recomendation: "+A.e(s.cx)+", region: "+A.e(s.cy)+", rowAddress: "+A.e(s.db)+", machineNumber: "+A.e(s.dx)+", sheetID: "+A.e(s.dy)+", sheetURL: "+A.e(s.fr)+", status: "+A.e(s.fx)+", subCategory: "+A.e(s.fy)+", techName: "+A.e(s.go)+", ticketNumber: "+A.e(s.id)+", to: "+A.e(s.k1)+", visitDate: "+A.e(s.k2)+", firebaseID: "+A.e(s.k3)+", fromTable: "+A.e(s.k4)+", laborCharges: "+A.e(s.ok)+", deliveryType: "+A.e(s.p1)+", isUrgent: "+A.e(s.p2)+", deliveryItems: "+A.e(s.p3)+", ticketComments: "+A.e(s.S)+", searchText: "+A.e(s.p4)+", soNumber: "+A.e(s.R8)+", machineImage: "+A.e(s.RG)+", video: "+A.e(s.rx)+", reportName: "+A.e(s.ry)+", reportLink: "+A.e(s.to)+", invoiceName: "+A.e(s.x1)+", invoiceLink: "+A.e(s.x2)+", label: "+A.e(s.xr)+", routeName: "+A.e(s.y1)+", closeDate: "+A.e(s.y2)+", isLate: "+A.e(s.P)+", invConf: null, time: "+A.e(s.a0)+", dateTime: null, isCash: "+A.e(s.aV)+", totalAmount: "+A.e(s.F)+", info: "+A.e(s.J)+", parts: "+A.e(s.bL)+", goingMachine: "+A.e(s.aW)+", comingMachine: "+A.e(s.v)+", isApproved: "+A.e(s.T)+", approvedBy: "+A.e(s.a1)+", laborCharge: "+A.e(s.a6)+", machineType: "+A.e(s.ab)+", machineCategory: "+A.e(s.aQ)+", issue: "+A.e(s.bE)+", serviceType: "+A.e(s.bM)+", hasReplacement: "+A.e(s.aT)+", withReplacement: "+A.e(s.U)+", reworkReason: "+A.e(s.ca)+", reworkType: "+A.e(s.er)+", detectWSrework: null, isPreMaintenance: "+A.e(s.dS)+", coordinates: "+A.e(s.dI)+", explaination: "+A.e(s.dJ)+")"},
+return"Ticket(machineModel: "+A.e(s.a)+", assignDate: "+A.e(s.b)+", cafeLocation: "+A.e(s.c)+", cafeName: "+A.e(s.d)+", city: "+A.e(s.e)+", createdBy: "+A.e(s.f)+", creationDate: "+A.e(s.r)+", customerMobile: "+A.e(s.w)+", customerName: "+A.e(s.x)+", customerNumber: "+A.e(s.y)+", didContact: "+A.e(s.z)+", extraContactNumber: "+A.e(s.Q)+", freeParts: "+A.e(s.as)+", freeVisit: "+A.e(s.at)+", from: "+A.e(s.ax)+", lastEditBy: "+A.e(s.ay)+", mainCategory: "+A.e(s.ch)+", problemDesc: "+A.e(s.CW)+", recomendation: "+A.e(s.cx)+", region: "+A.e(s.cy)+", rowAddress: "+A.e(s.db)+", machineNumber: "+A.e(s.dx)+", sheetID: "+A.e(s.dy)+", sheetURL: "+A.e(s.fr)+", status: "+A.e(s.fx)+", subCategory: "+A.e(s.fy)+", techName: "+A.e(s.go)+", ticketNumber: "+A.e(s.id)+", to: "+A.e(s.k1)+", visitDate: "+A.e(s.k2)+", firebaseID: "+A.e(s.k3)+", fromTable: "+A.e(s.k4)+", laborCharges: "+A.e(s.ok)+", deliveryType: "+A.e(s.p1)+", isUrgent: "+A.e(s.p2)+", deliveryItems: "+A.e(s.p3)+", ticketComments: "+A.e(s.S)+", searchText: "+A.e(s.p4)+", soNumber: "+A.e(s.R8)+", machineImage: "+A.e(s.RG)+", video: "+A.e(s.rx)+", reportName: "+A.e(s.ry)+", reportLink: "+A.e(s.to)+", invoiceName: "+A.e(s.x1)+", invoiceLink: "+A.e(s.x2)+", label: "+A.e(s.xr)+", routeName: "+A.e(s.y1)+", closeDate: "+A.e(s.y2)+", isLate: "+A.e(s.P)+", invConf: null, time: "+A.e(s.a0)+", dateTime: null, isCash: "+A.e(s.aV)+", totalAmount: "+A.e(s.F)+", info: "+A.e(s.J)+", parts: "+A.e(s.bL)+", goingMachine: "+A.e(s.aW)+", comingMachine: "+A.e(s.v)+", isApproved: "+A.e(s.T)+", approvedBy: "+A.e(s.a1)+", laborCharge: "+A.e(s.a6)+", machineType: "+A.e(s.ab)+", machineCategory: "+A.e(s.aQ)+", issue: "+A.e(s.bE)+", serviceType: "+A.e(s.bM)+", hasReplacement: "+A.e(s.aT)+", withReplacement: "+A.e(s.U)+", reworkReason: "+A.e(s.ca)+", reworkType: "+A.e(s.er)+", detectWSrework: null, isPreMaintenance: "+A.e(s.dS)+", coordinates: "+A.e(s.dI)+", explaination: "+A.e(s.dJ)+", isJCV2: true)"},
 $iat:1,
 gpN(){return this.a},
 gbo(a){return this.fx},
