@@ -81,6 +81,7 @@
   "logout": "Logout",
   "customer_comp_tickets": "Complaints",
   "adv_payment": "Advance Payment",
+  "flat_rate": "Apply Off-Hours Service Fee",
   "waiting_confirmation_tickets": "Review Tickets",
   "expected_date": "Expected Delivery Date",
   "tracking_number": "Tracking Number",

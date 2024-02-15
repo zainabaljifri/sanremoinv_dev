@@ -86,5 +86,6 @@
   "tracking_number": "Tracking Number",
   "with_replacement": "Need Replacement",
   "machine_model_err":"YOU HAVE TO SELECT MACHINE MODEL !!!!",
-  "needs_rework":"Needs Rework"
+  "needs_rework":"Needs Rework",
+  "flat_rate":"تطبيق رسوم خدمة خارج الساعات الرسمية"
 }
