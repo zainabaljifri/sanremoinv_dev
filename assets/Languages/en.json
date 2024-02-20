@@ -87,5 +87,6 @@
   "tracking_number": "Tracking Number",
   "with_replacement": "Need Replacement",
   "machine_model_err": "YOU HAVE TO SELECT MACHINE MODEL !!!!",
+  "select_parts_error":"YOU HAVE TO SELECT SPARE PARTS",
   "needs_rework": "Needs Rework"
 }
