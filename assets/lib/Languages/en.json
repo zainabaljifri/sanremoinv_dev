@@ -248,5 +248,10 @@
   "waiting_dispatch_category": "Waiting Dispatch",
   "move_to_dispatch": "Move To Dispatch Line",
   "return_to_waiting_dispatch": "Return To Waiting Dispatch",
-  "ready_to_rent_category": "Ready To Rent"
+  "ready_to_rent_category": "Ready To Rent",
+  "return": "Return",
+  "total_parts_amount": "Total Parts Amount",
+  "remaining_balance": "Remaining Balance",
+  "order_details": "Order Details",
+  "machine_checklist": "Machine Checklist"
 }

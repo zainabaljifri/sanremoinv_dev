@@ -231,5 +231,10 @@
   "waiting_dispatch_category": "انتظار الإرسال",
   "move_to_dispatch": "نقل المكينة للإرسال",
   "return_to_waiting_dispatch": "إرجاع المكينة لانتظار الإرسال",
-  "ready_to_rent_category": "جاهز للإيجار"
+  "ready_to_rent_category": "جاهز للإيجار",
+  "return": "إرجاع",
+  "total_parts_amount": "إجمالي سعر القطع",
+  "remaining_balance": "الرصيد المتبقي",
+  "order_details": "تفاصيل الطلب",
+  "machine_checklist": "قائمة التدقيق"
 }

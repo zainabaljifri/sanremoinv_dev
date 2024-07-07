@@ -33,8 +33,8 @@ const RESOURCES = {
 "assets/Assets/Images/undraw_pilates_gpdb.png": "1b1ed996588a09e87c5ff451d1e6bcb0",
 "assets/FontManifest.json": "dc3d03800ccca4601324923c0b1d6d57",
 "assets/fonts/MaterialIcons-Regular.otf": "95db9098c58fd6db106f1116bae85a0b",
-"assets/lib/Languages/ar.json": "8b169d2ff48b89ba877d2ae9e91530f5",
-"assets/lib/Languages/en.json": "ac99e5e7f48022dc1cbee75f031f7f0e",
+"assets/lib/Languages/ar.json": "0df56dc5fa0c56a1700c97f4a5f0e0cc",
+"assets/lib/Languages/en.json": "47f871b588acb7c5c0d45661c835628e",
 "assets/NOTICES": "8ce525372ca5e3f9c84e379a2f56cd5b",
 "assets/packages/cool_alert/assets/flare/error_check.flr": "d9f54791d0d79935d22206966707e4b3",
 "assets/packages/cool_alert/assets/flare/info_check.flr": "f6b81c2aa3ae36418c13bfd36d11ac04",
@@ -51,9 +51,9 @@ const RESOURCES = {
 "flutter.js": "f85e6fb278b0fd20c349186fb46ae36d",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
-"index.html": "24140c871c8b02d6f8da9036ba614d61",
-"/": "24140c871c8b02d6f8da9036ba614d61",
-"main.dart.js": "a62c0cf01dadaf43ebbbfbe8a26269ff",
+"index.html": "26af8126938704c7427e7a4f3f4ed8ac",
+"/": "26af8126938704c7427e7a4f3f4ed8ac",
+"main.dart.js": "cc57bf85b51ccaf29ea1d51fb2e86f8f",
 "manifest.json": "9de2563b5eecc9e76b1b8e0b2b15fa71",
 "version.json": "5a170ff0b617448d6fdac57283941f31"
 };
