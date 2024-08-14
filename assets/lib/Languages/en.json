@@ -253,5 +253,6 @@
   "total_parts_amount": "Total Parts Amount",
   "remaining_balance": "Remaining Balance",
   "order_details": "Order Details",
-  "machine_checklist": "Machine Checklist"
+  "machine_checklist": "Machine Checklist",
+  "new": "New"
 }
