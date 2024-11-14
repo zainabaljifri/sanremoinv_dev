@@ -33,7 +33,7 @@ const RESOURCES = {
 "assets/Assets/Images/undraw_pilates_gpdb.png": "1b1ed996588a09e87c5ff451d1e6bcb0",
 "assets/FontManifest.json": "dc3d03800ccca4601324923c0b1d6d57",
 "assets/fonts/MaterialIcons-Regular.otf": "95db9098c58fd6db106f1116bae85a0b",
-"assets/lib/Languages/ar.json": "ca6cdd4daa7c792775ee5c90a27850ac",
+"assets/lib/Languages/ar.json": "2955dcb2bc4d1af07f39bc40f225a795",
 "assets/lib/Languages/en.json": "b443dccaf4d61073a4d71c87540c1f62",
 "assets/NOTICES": "8ce525372ca5e3f9c84e379a2f56cd5b",
 "assets/packages/cool_alert/assets/flare/error_check.flr": "d9f54791d0d79935d22206966707e4b3",
@@ -51,9 +51,9 @@ const RESOURCES = {
 "flutter.js": "f85e6fb278b0fd20c349186fb46ae36d",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
-"index.html": "731f71cf396d7f341f292b8ea443d9a7",
-"/": "731f71cf396d7f341f292b8ea443d9a7",
-"main.dart.js": "e7e3821b0d80b85ae5bff93be25b2054",
+"index.html": "8bc7c3959c95aec363ea6539e84b90e3",
+"/": "8bc7c3959c95aec363ea6539e84b90e3",
+"main.dart.js": "3b5a31c8d29f4c47d3f9ef15c6bc0132",
 "manifest.json": "9de2563b5eecc9e76b1b8e0b2b15fa71",
 "version.json": "5a170ff0b617448d6fdac57283941f31"
 };
