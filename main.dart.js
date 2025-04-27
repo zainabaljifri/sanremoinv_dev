@@ -105524,19 +105524,6 @@ A.vr.prototype={
 I(){var s=null,r=$.ac()
 return new A.a7_(new A.aj(B.q,r),new A.aj(B.q,r),new A.aj(B.q,r),new A.aj(B.q,r),new A.aj(B.q,r),new A.aj(B.q,r),new A.aj(B.q,r),new A.aj(B.q,r),new A.aj(B.q,r),new A.nw(),new A.aj(B.q,r),A.a_x(!1,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,!1,s,s,s,s,s,!1,!1,!1,s,!1,!1,!1,!1,!1,!1,!1,!1,!1,s,s,s,s,s,s,s,!1,!1,!1,!1,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,!0,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s),s,s,B.i)}}
 A.a7_.prototype={
-X(){var s,r
-this.ad()
-s=$.be()
-r=this.c
-r.toString
-s.aT(0,this,t.U.a(A.ai(r,t.X)))},
-U(){var s=this.c
-s.toString
-A.G(s,!1,t.R).l0()
-s=this.c
-s.toString
-A.G(s,!1,t.lZ).p_()
-this.bd()},
 aE(){var s,r,q,p=this
 p.aZ()
 s=p.c
@@ -105573,6 +105560,19 @@ if(q!=null)p.ax=q
 q=s.fy
 if(q!=null)p.ay=q
 if(s.aS==="Customer")p.dx="Customer"},
+X(){var s,r
+this.ad()
+s=$.be()
+r=this.c
+r.toString
+s.aT(0,this,t.U.a(A.ai(r,t.X)))},
+U(){var s=this.c
+s.toString
+A.G(s,!1,t.R).l0()
+s=this.c
+s.toString
+A.G(s,!1,t.lZ).p_()
+this.bd()},
 v(a4){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,c,b,a=this,a0=null,a1="initial_inspection",a2="final_inspection",a3={}
 A.G(a4,!0,t.R)
 s=t.N
@@ -105627,18 +105627,16 @@ d=a.dy.b
 if(d==null)d=0
 d=B.e.a8(a3*1.15+d,2)
 a3=A.aQ(!0,!1,new A.aj(new A.bR(d,B.F,B.C),l),A.ap(a0,a0,a0,a0,a0,a0,a0,a0,!0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,!1,a0,A.h("Total Cost",a0,a0,a0,a0,a0,a0),a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0),a0,!1,a0,a0,a0,a0,a0,1,a0,!1,a0,a0,a0,a0,a0,a0,a0)
-l=a.w
-d=l.a.a
-c=A.j(a4,B.d,k)
-c.toString
-d=A.aQ(!0,!1,l,A.ap(a0,a0,a0,a0,a0,a0,a0,a0,!0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,!1,a0,A.h(J.e(c.l("total_cups")),a0,a0,a0,a0,a0,a0),a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0),a0,d.length===0,a0,a0,a0,a0,a0,1,a0,!1,a0,a0,a0,a0,a0,a0,a0)
-c=A.hg(!0,B.av,!1,a0,a.Q,a0,a0,a0,2,A.ap(a0,a0,a0,a0,a0,a0,a0,a0,!0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,!1,a0,A.h("Machine Phase",a0,a0,a0,a0,a0,a0),a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0),!0,a0,!0,!1,!1,a0,a0,a0,a0,a0,a0,1,a0,a0,!1,"\u2022",a0,a0,a0,a0,!1,a0,a0,B.aY,a0,a0,a0,a0,a0,a0,a0,B.ab,a0,B.b0,a0,a0,a0)
 l=A.j(a4,B.d,k)
 l.toString
-l=A.hg(!0,B.av,!1,a0,a.e,a0,a0,a0,2,A.ap(a0,a0,a0,a0,a0,a0,a0,a0,!0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,!1,a0,A.h(J.e(l.l("Tech_1")),a0,a0,a0,a0,a0,a0),a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0),!0,a0,!0,!1,!1,a0,a0,a0,a0,a0,a0,1,a0,a0,!1,"\u2022",a0,a0,a0,a0,!1,a0,a0,B.aY,a0,a0,a0,a0,a0,a0,a0,B.ab,a0,B.b0,a0,a0,a0)
+l=A.aQ(!0,!1,a.w,A.ap(a0,a0,a0,a0,a0,a0,a0,a0,!0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,!1,a0,A.h(J.e(l.l("total_cups")),a0,a0,a0,a0,a0,a0),a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0),a0,a0,a0,a0,a0,a0,a0,1,a0,!1,a0,a0,a0,a0,a0,a0,a0)
+d=A.hg(!0,B.av,!1,a0,a.Q,a0,a0,a0,2,A.ap(a0,a0,a0,a0,a0,a0,a0,a0,!0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,!1,a0,A.h("Machine Phase",a0,a0,a0,a0,a0,a0),a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0),!0,a0,!0,!1,!1,a0,a0,a0,a0,a0,a0,1,a0,a0,!1,"\u2022",a0,a0,a0,a0,!1,a0,a0,B.aY,a0,a0,a0,a0,a0,a0,a0,B.ab,a0,B.b0,a0,a0,a0)
+c=A.j(a4,B.d,k)
+c.toString
+c=A.hg(!0,B.av,!1,a0,a.e,a0,a0,a0,2,A.ap(a0,a0,a0,a0,a0,a0,a0,a0,!0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,!1,a0,A.h(J.e(c.l("Tech_1")),a0,a0,a0,a0,a0,a0),a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0),!0,a0,!0,!1,!1,a0,a0,a0,a0,a0,a0,1,a0,a0,!1,"\u2022",a0,a0,a0,a0,!1,a0,a0,B.aY,a0,a0,a0,a0,a0,a0,a0,B.ab,a0,B.b0,a0,a0,a0)
 b=A.j(a4,B.d,k)
 b.toString
-b=A.a([j,m,i,s,q,h,e,f,a3,d,c,l,A.hg(!0,B.av,!1,a0,a.f,a0,a0,a0,2,A.ap(a0,a0,a0,a0,a0,a0,a0,a0,!0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,!1,a0,A.h(J.e(b.l("tech_2")),a0,a0,a0,a0,a0,a0),a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0),!0,a0,!0,!1,!1,a0,a0,a0,a0,a0,a0,1,a0,a0,!1,"\u2022",a0,a0,a0,a0,!1,a0,a0,B.aY,a0,a0,a0,a0,a0,a0,a0,B.ab,a0,B.b0,a0,a0,a0)],g)
+b=A.a([j,m,i,s,q,h,e,f,a3,l,d,c,A.hg(!0,B.av,!1,a0,a.f,a0,a0,a0,2,A.ap(a0,a0,a0,a0,a0,a0,a0,a0,!0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,!1,a0,A.h(J.e(b.l("tech_2")),a0,a0,a0,a0,a0,a0),a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0),!0,a0,!0,!1,!1,a0,a0,a0,a0,a0,a0,1,a0,a0,!1,"\u2022",a0,a0,a0,a0,!1,a0,a0,B.aY,a0,a0,a0,a0,a0,a0,a0,B.ab,a0,B.b0,a0,a0,a0)],g)
 a3=a.dy
 s=a3.db
 q=s==null?"":s
